@@ -20,14 +20,14 @@ import json
 
 #--------------------------------------------------------------------------------------------
 ##############################SWAPI! una API de star wards##################################
-#import pprint
-#def swapi():
-#    ask = input("escoge una categoria: Planets, Spaceships, Vehicles, People, Films and Species: ")
-#    f = 'https://swapi.dev/api/{}'.format(ask)
-#    data = requests.get(f)
-#    tt = json.loads(data.text)
-#    print(type(tt))
-#    pprint.pprint(tt)
+import pprint
+def swapi():
+    ask = input("escoge una categoria: Planets, Spaceships, Vehicles, People, Films and Species: ")
+    f = 'https://swapi.dev/api/{}'.format(ask)
+    data = requests.get(f)
+    tt = json.loads(data.text)
+    print(type(tt))
+    pprint.pprint(tt)
 
 
 #swapi()
