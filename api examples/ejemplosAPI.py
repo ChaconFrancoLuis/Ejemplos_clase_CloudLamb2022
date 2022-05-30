@@ -15,7 +15,7 @@ chuck()
 # Luego crea una forma en la cual seleccionar de forma continua un chiste de cualquier categoria
 # incluye la opcion quit o q para finalizar la ejecucion del programa.
 
-
+print("Hello world")
 
 
 #--------------------------------------------------------------------------------------------
@@ -35,3 +35,5 @@ def swapi():
 # crea una API que te muestre una lista de categorias de la api en : https://swapi.dev/documentation
 # Luego crea una forma en la cual seleccionar de forma continua una categoria
 # incluye la opcion quit o q para finalizar la ejecucion del programa.
+
+print("hello world 2")
